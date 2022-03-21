@@ -43,19 +43,18 @@
         <v-card-title primary-title>
           <div>
             <h3 class="headline mb-0">
-              <span>About</span>
-              <span class="green--text">Me</span>
+              <span class="green--text">About</span>
+              <span class="green--text"> Me</span>
             </h3>
             <div>
               <p>
-                Hello! I’m Eldin Zaimovic. I'm a front-end developer who
+                Hello! I am Sulai Sivadel. I'm a Frontend Developer who
                 is passionate about
                 <span
                   class="green--text font-weight-bold"
-                >VUE</span>, building great user experiences,
-                fighting for simplicity over complexity and constantly learning.
-                When I'm not coding or making videos, you'll find me traveling across Europe.
-              </p>
+                ></span>building great user experiences.
+                I  am ambitious and user-focused with experience working in teams and independently. I have strong project management experience and experience delegating responsibilities to a team. <p>
+                A flexible and quick learner committed to constantly  learning and evolving skills to stay abreast of ever-evolving technologies and trends in the industry. Communicative, knowledgeable and steadfast with excellent computer engineering skills. HTML5, CSS,JavaScript, VueJS, and ReactJS.<p>When I'm not coding, you'll find me baking delicous desserts.</p>
             </div>
           </div>
         </v-card-title>
@@ -102,20 +101,20 @@ import VueCompareImage from "vue-compare-image";
 export default {
   metaInfo: {
     title: "Home",
-    titleTemplate: "%s ← Eldin's Space",
+    titleTemplate: "%s ← Sulai Sivadel",
     meta: [
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { name: "description", content: "Eldin Zaimovic's Portfolio" },
+      { name: "description", content: "Sulai Sivadel's Portfolio" },
       { charset: "utf-8" },
-      { property: "og:title", content: "Eldin' Space" },
-      { property: "og:site_name", content: "Eldin' Space" },
+      { property: "og:title", content: "" },
+      { property: "og:site_name", content: "Sulai's World" },
       { property: "og:type", content: "website" },
-      { property: "og:url", content: "https://eldin.space" },
+      { property: "og:url", content: "https://www.sulai.me" },
       {
         property: "og:image",
         content: "https://i.imgur.com/Dcz2PGx.jpg"
       },
-      { property: "og:description", content: "Eldin Zaimovic's Portfolio" }
+      { property: "og:description", content: "Sulai's Portfolio" }
     ]
   },
   components: {
@@ -125,25 +124,16 @@ export default {
   data() {
     return {
       icons: [
-        { href: "https://github.com/EldinZaimovic", icon: "fab fa-github" },
+        { href: "https://github.com/sulai3030", icon: "fab fa-github" },
         {
-          href: "https://stackoverflow.com/users/story/9660700",
+          href: "https://stackoverflow.com/users/9226831/sulai3030",
           icon: "fab fa-stack-overflow"
         },
-        { href: "https://twitter.com/EldinMatricar", icon: "fab fa-twitter" },
+        { href: "https://https://twitter.com/Sulai2020", icon: "fab fa-twitter" },
         {
-          href: "https://www.linkedin.com/in/eldin-zaimovic",
+          href: "https://www.https://www.linkedin.com/in/sulai3030",
           icon: "fab fa-linkedin-in"
         },
-        {
-          href: "https://www.xing.com/profile/Eldin_Zaimovic?sc_o=mxb_p",
-          icon: "fab fa-xing"
-        },
-        {
-          href: "https://www.facebook.com/EldinVasVoli",
-          icon: "fab fa-facebook-f"
-        },
-        { href: "https://www.instagram.com/matricar", icon: "fab fa-instagram" }
       ],
       text1: ["Front-End Developer", "Web Developer", "Web Designer"],
       leftImage: "https://i.imgur.com/bU50uS9.jpg",

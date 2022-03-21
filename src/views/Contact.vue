@@ -4,40 +4,35 @@
       <v-flex xs12 sm12 md6 lg6 xl6>
         <h2 class="pb-4 mt-2">
           <span>GetIn</span>
-          <span class="green--text">Touch</span>
+          <span class="blue--text">Touch</span>
         </h2>
         <div class="py-4 subheading font-weight-bold">
-          <v-icon large color="green" left>fas fa-map-marker-alt</v-icon>
-          <span>Doboj,&nbsp;</span>
-          <span class="green--text">Bosnia & Herzegovina</span>
+          <v-icon large color="blue" left>fas fa-map-marker-alt</v-icon>
+          <span></span>
+          <span class="blue--text"></span>
         </div>
         <div class="py-4 subheading font-weight-bold">
-          <v-icon large color="green" left>fas fa-envelope</v-icon>
-          <span>eldin@</span>
-          <span class="green--text">zaimovic.com</span>
+          <v-icon large color="blue" left>fas fa-envelope</v-icon>
+          <span>sulai3030@</span>
+          <span class="blue--text">gmail.com</span>
         </div>
         <div class="py-4 subheading font-weight-bold">
-          <v-icon large color="green" left>fas fa-phone</v-icon>
-          <span>+387&nbsp;</span>
-          <span class="green--text">61 596 676</span>
-        </div>
-        <div class="py-4 subheading font-weight-bold">
-          <v-icon large color="green" left>fas fa-check</v-icon>
+          <v-icon large color="blue" left>fas fa-check</v-icon>
           <span>Freelance</span>
-          <span class="green--text">Available</span>
+          <span class="blue--text">Available</span>
         </div>
       </v-flex>
 
       <v-flex xs12 sm12 md6 lg6 xl6>
         <h2 class="pb-4 mb-4">
           <span>Contact</span>
-          <span class="green--text">Form</span>
+          <span class="blue--text">Form</span>
         </h2>
 
         <form method="POST" action="https://formspree.io/eldin@zaimovic.com">
           <v-text-field
             name="name"
-            color="green"
+            color="blue"
             background-color="transparent"
             v-model="name"
             :error-messages="nameErrors"
@@ -47,7 +42,7 @@
           ></v-text-field>
           <v-text-field
             type="email"
-            color="green"
+            color="blue"
             background-color="transparent"
             name="email"
             v-model="email"
@@ -57,7 +52,7 @@
             @blur="$v.email.$touch()"
           ></v-text-field>
           <v-textarea
-            color="green"
+            color="blue"
             background-color="transparent"
             :counter="200"
             :error-messages="bodyErrors"
@@ -69,7 +64,7 @@
           <v-btn
             @click="submit"
             type="submit"
-            color="green"
+            color="blue"
             class="white--text"
             :disabled=" (body.length<=20)"
           >SEND MESSAGE</v-btn>
