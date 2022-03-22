@@ -45,13 +45,13 @@
         <v-icon v-if="goDark==true">fas fa-sun</v-icon>
         <v-icon v-else>fas fa-moon</v-icon>
       </v-btn>
-      <v-toolbar-items class="hidden-sm-and-down">
-        <v-btn flat to="/" active-class="green--text headline">Home</v-btn>
-        <v-btn flat to="/resume" active-class="green--text headline">Resume</v-btn>
-        <v-btn flat to="/services" active-class="green--text headline">Services</v-btn>
-        <v-btn flat to="/portfolio" active-class="green--text headline">Portfolio</v-btn>
-        <v-btn flat to="/blog" active-class="green--text headline">Blog</v-btn>
-        <v-btn flat to="/contact" active-class="green--text headline">Contact</v-btn>
+      <v-toolbar-items class="hidden-sm-and-down" color="#08055E">
+        <v-btn flat to="/" active-class="blue--text headline">Home</v-btn>
+        <v-btn flat to="/resume" active-class="blue--text headline">Resume</v-btn>
+        <v-btn flat to="/services" active-class="blue--text headline">Services</v-btn>
+        <v-btn flat to="/portfolio" active-class="blue--text headline">Portfolio</v-btn>
+        <v-btn flat to="/blog" active-class="blue--text headline">Blog</v-btn>
+        <v-btn flat to="/contact" active-class="blue--text headline">Contact</v-btn>
         <v-btn @click="changeTheme" depressed small icon>
           <v-icon v-if="goDark==true">fas fa-sun</v-icon>
           <v-icon v-else>fas fa-moon</v-icon>
@@ -81,5 +81,5 @@ export default {
 };
 </script>
 
-<style >
+<style>
 </style>

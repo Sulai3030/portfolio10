@@ -8,7 +8,7 @@
         </h2>
         <div class="py-4 subheading font-weight-bold">
           <v-icon large color="blue" left>fas fa-map-marker-alt</v-icon>
-          <span></span>
+          <span>New York, NY</span>
           <span class="blue--text"></span>
         </div>
         <div class="py-4 subheading font-weight-bold">

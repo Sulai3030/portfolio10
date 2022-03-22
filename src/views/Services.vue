@@ -3,8 +3,8 @@
     <v-layout row justify-center align-center wrap class="mt-4 pt-2">
       <v-flex xs12 sm12 md12 lg12 xl12>
         <h2 class="pl-4">
-          <span>My</span>
-          <span class="green--text">Services</span>
+          <span class="blue--text">My</span>
+          <span class="blue--text">Services</span>
         </h2>
       </v-flex>
       <v-flex v-for="service in services" :key="service.src" xs6 sm3 md3 lg3 xl3>
@@ -25,8 +25,8 @@
       </v-flex>
       <v-flex xs12 sm12 md12 lg12 xl12>
         <h2 class="pl-4">
-          <span>My</span>
-          <span class="green--text">Clients</span>
+          <span class="blue--text">My</span>
+          <span class="blue--text">Clients</span>
         </h2>
       </v-flex>
 
@@ -90,9 +90,9 @@ export default {
     return {
       clients: [
         {
-          name: "Brandly",
-          src: "https://i.imgur.com/BLJ16wb.png",
-          href: "https://www.brandly.com/"
+          name: "Party Dash",
+          src: "",
+          href: "https://partydash.com/"
         },
         {
           name: "EEVOY",
