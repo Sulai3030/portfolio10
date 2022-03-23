@@ -1,137 +1,111 @@
 <template>
-  <v-layout row justify-center align-center wrap class="mt-4 pt-2">
-    <v-flex xs12 sm12 md5 lg6 xl6 class="mt-4 pt-4">
-      <h2 class="mb-4 pl-4 pt-2">Education</h2>
-      <v-card-text class="py-0">
-        <v-timeline align-top dense>
-          <v-timeline-item color="#08055E" small>
-            <v-layout pt-3>
-              <v-flex xs4>
-                <div class="caption font-weight-bold blue--text">JAN 2019 -</div>
-                <div class="caption font-weight-bold blue--text">PRESENT</div>
-              </v-flex>
-              <v-flex class="pl-2">
-                <strong>Mayapple Center for the Arts and Humanities|https://www.mayapple.org</strong>
-                <div class="caption mb-2">Webmaster</div>
-              </v-flex>
-            </v-layout>
-          </v-timeline-item>
-
-          <v-timeline-item color="blue" small>
-            <v-layout pt-3>
-              <v-flex xs4>
-                <div class="caption font-weight-bold blue--text">SEP 2007 -</div>
-                <div class="caption font-weight-bold blue--text">MAY 2014</div>
-              </v-flex>
-              <v-flex class="pl-2">
-                <strong>Technical Writer/ Content Management Writer/Editor,  Independent  Contractor                               g</strong>
-                <div class="caption mb-2">Regeneron, Inc.                                                                        </div>
-              </v-flex>
-            </v-layout>
-          </v-timeline-item>
-
-          <v-timeline-item color="blue" small>
-            <v-layout pt-3>
-              <v-flex xs4>
-                <div class="caption font-weight-bold blue--text">SEP 2003 -</div>
-                <div class="caption font-weight-bold blue--text">MAY 2007</div>
-              </v-flex>
-              <v-flex class="pl-2">
-                <strong>Electrical Technician for Computers</strong>
-                <div class="caption mb-2">Electro-technical school Doboj</div>
-              </v-flex>
-            </v-layout>
-          </v-timeline-item>
-        </v-timeline>
-      </v-card-text>
-    </v-flex>
-    <v-flex xs12 sm12 md4 lg6 xl6 class="mt-4 pt-2">
-      <h2 class="mb-4 pl-4">Experience</h2>
-      <v-card-text class="py-0">
-        <v-timeline align-top dense>
-          <v-timeline-item color="blue" small>
-            <v-layout pt-3>
-              <v-flex xs4>
-                <div class="caption font-weight-bold blue--text">DEC 2016 -</div>
-                <div class="caption font-weight-bold blue--text">PRESENT</div>
-              </v-flex>
-              <v-flex class="pl-2">
-                <strong>Freelance Frontend Developer</strong>
-                <div class="caption mb-2">Remote</div>
-              </v-flex>
-            </v-layout>
-          </v-timeline-item>
-
-          <v-timeline-item color="blue" small>
-            <v-layout pt-3>
-              <v-flex xs4>
-                <div class="caption font-weight-bold blue--text">FEB 2018 -</div>
-                <div class="caption font-weight-bold blue--text">JULY 2018</div>
-              </v-flex>
-              <v-flex class="pl-2">
-                <strong>Teacher for electrical technicians</strong>
-                <div class="caption mb-2">High School Doboj Istok</div>
-              </v-flex>
-            </v-layout>
-          </v-timeline-item>
-
-          <v-timeline-item color="blue" small>
-            <v-layout pt-3>
-              <v-flex xs4>
-                <div class="caption font-weight-bold blue--text">AUG 2014 -</div>
-                <div class="caption font-weight-bold blue--text">APR 2016</div>
-              </v-flex>
-              <v-flex class="pl-2">
-                <strong>IT Technician</strong>
-                <div class="caption mb-2">MFS-EMMAUS</div>
-              </v-flex>
-            </v-layout>
-          </v-timeline-item>
-        </v-timeline>
-      </v-card-text>
-    </v-flex>
-    <v-layout row justify-center align-center wrap class="mt-4 pt-2">
-      <v-flex xs12 sm12 md4 lg5 xl5 class="mx-2 pt-4">
-        <h2>
-          <span>Design</span>
-
-          <span class="blue--text">Skills</span>
-        </h2>
-        <br>
-        <strong>Photoshop</strong>
-        <v-progress-linear v-model="buffer1" :buffer-value="bufferValue" color="blue" height="16"></v-progress-linear>
-        <strong>Adobe XD</strong>
-        <v-progress-linear v-model="buffer2" :buffer-value="bufferValue" color="blue" height="16"></v-progress-linear>
-        <strong>Zeplin</strong>
-        <v-progress-linear v-model="buffer3" :buffer-value="bufferValue" color="blue" height="16"></v-progress-linear>
-      </v-flex>
-      <v-flex xs12 sm12 md4 lg5 xl5 class="mx-2 pt-4">
-        <h2>
-          <span>Coding</span>
-          <span class="blue--text">Skills</span>
-        </h2>
-        <br>
-        <strong>VUE/NUXT</strong>
-        <v-progress-linear v-model="buffer4" :buffer-value="bufferValue" color="blue" height="16"></v-progress-linear>
-        <strong>HTML/CSS</strong>
-        <v-progress-linear v-model="buffer5" :buffer-value="bufferValue" color="blue" height="16"></v-progress-linear>
-        <strong>JavaScript</strong>
-        <v-progress-linear v-model="buffer6" :buffer-value="bufferValue" color="blue" height="16"></v-progress-linear>
-      </v-flex>
-      <div class="mt-4 pt-2">
-        <v-btn
-          href="https://docs.google.com/document/d/1WSR42FEgUahJuR_RArW1wz7TfUBlgj13zekRidmQgs4/edit?usp=sharing"
-          target="_blank"
-          color="blue"
-          dark
-          large
-        >
-          Download Resume
-          <v-icon right dark>fas fa-file-download</v-icon>
-        </v-btn>
-      </div>
-    </v-layout>
-  </v-layout>
+  <v-timeline>
+    <v-banner
+      color="accent"
+      elevation="24"
+      rounded
+      shaped
+      sticky>
+      <h2>APPLICATIONS BUILT</h2>
+    </v-banner>
+    <v-timeline-item
+      color="red lighten-2"
+      large
+    >
+      <template v-slot:opposite>
+        <span><h2>Project 1. Party Dash </h2><a href="https://partydash.com/">https://partydash.com/</a></span>
+      </template>
+      <v-card class="elevation-2">
+        <v-card-title class="text-h5">
+          Front-End Design
+        </v-card-title>
+        <v-card-text>
+          We built Party Dash with a simple goal in mind: to help party hosts plan parties more easily
+        </v-card-text>
+        <v-card-text>
+          Responsibilities: Follow design specs handed down from site owner. Used CSS and HTML to create inviting website
+        </v-card-text>
+        <v-card-text>
+          Technologies used: HTML, CSS, Bootstrap
+        </v-card-text>
+      </v-card>
+    </v-timeline-item>
+    <v-timeline-item
+      color="red lighten-2"
+      large>
+      <template v-slot:opposite>
+        <span><h2>Project 2. RuneSkype </h2><a href="https://runeskype.herokuapp.com/play">https://runeskype.herokuapp.com/play</a></span>
+      </template>
+      <v-card class="elevation-2">
+        <v-card-title class="text-h5">
+          Front-end design, Linting, cleaning up frontend and backend code and making sure both sides work together.
+        </v-card-title>
+        <v-card-text>
+          RuneSkype is the newest way for friends to interact while playing your favorite Role Playing Game (RPG) RuneSkype. Playing RuneSkype is easy, just download a copy from our homepage or our repo:
+        </v-card-text>
+        <v-card-text>
+          Responsibilities:  Wrote clean, presentable code. Kept group on time and on track to present at Project Demo Day
+        </v-card-text>
+        <v-card-text>
+          Technologies used: ReactJS, ChanceJS, Node, Express, Firebase, Twilio-Video, Twilio, WebRTC, Axios. Express, Faker, jQuery, React-dnd, React-dnd-html5-backend,React-dom, React-draggable, React-router-dom, Webpack-dev-middleware, Webpack hot-middleware
+        </v-card-text>
+      </v-card>
+    </v-timeline-item>
+    <v-timeline-item
+      color="red lighten-2"
+      large>
+      <template v-slot:opposite>
+        <span><h2>Project 3. The GOAT Voter App | </h2><a href="http://www.goatvoter.org">https://www.goatvoter.org/</a></span>
+      </template>
+      <v-card class="elevation-2">
+        <v-card-title class="text-h5">
+          Front-End Design, created the color scheme and front-end components
+        </v-card-title>
+        <v-card-text>
+          The GOAT Voter App is a one-stop platform where voters can access information about candidates running for political offices anywhere in the United States. The GOAT Voter App streamlines information and increases voter participation.
+        </v-card-text>
+        <v-card-text>
+          Responsibilities:  Wrote clean, presentable code. Kept group on time and on track to present at Project Demo Day
+        </v-card-text>
+        <v-card-text>
+          By entering their zip code in a search field, users will be able to search and access detailed information about all candidates running for election in their district. In addition, users can enter their address to find out where their nearest polling site is located and request transportation on election day.
+        </v-card-text>
+        <v-card-text>
+          Technologies used: JavaScript, Handlebars, Bootstrap, CSS Parallax, Node.js, Express, Sequelize, Google Civic Information API, Heroku
+        </v-card-text>
+      </v-card>
+    </v-timeline-item>
+    <v-timeline>
+    <v-banner
+      color="accent"
+      elevation="24"
+      rounded
+      shaped
+      sticky>
+      <h2>RELEVANT EXPERIENCE</h2>
+    </v-banner>
+    <v-card
+      class="mx-auto"
+      max-width="800"
+      tile
+      elevation-2>
+      <v-list-item three-line>
+        <v-list-item-content>
+          <v-card-title class="text-h5">Mayapple Center for the Arts and Humanities| www.mayapple.org</v-card-title>
+          <v-card-title class="text-h5">Webmaster</v-card-title>
+          <v-card-title class="text-h5">
+            Updated and maintained website (Drupal 7 platform), creating links between Mayapple’s homepage and their yearly summer program at Sarah Lawrence College. Added, removed, and refined content for Events, Faculty, Executive Staff, Executive Board, and Advisory Board pages.      
+          </v-card-title> 
+          <v-list-item-subtitle>
+            <i>Key Accomplishments:</i>
+          </v-list-item-subtitle>
+          <v-card-title class="text-h5">Removed departed Advisory Board members from Advisory Board page and added new Advisory Board Members </v-card-title>         
+          <v-card-title class="text-h5">Input new faculty on Faculty page and Executive Board listing and names.</v-card-title>
+          <v-card-title class="text-h5">Communicated foundation’s message through updates on homepage about mission, events, enrollment opportunities and scholarships</v-card-title>
+       </v-list-item-content>
+     </v-list-item>
+    </v-card>
+  </v-timeline>
 </template>
 
 <script>

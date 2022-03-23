@@ -43,15 +43,14 @@
         <v-card-title primary-title>
           <div>
             <h3 class="headline mb-0">
-              <span class="green--text">About</span>
-              <span class="green--text"> Me</span>
+              <span class="blue--text"> Me</span>
             </h3>
             <div>
               <p>
                 Hello! I am Sulai Sivadel. I'm a Frontend Developer who
                 is passionate about
                 <span
-                  class="green--text font-weight-bold"
+                  class="blue--text font-weight-bold"
                 ></span>building great user experiences.
                 I  am ambitious and user-focused with experience working in teams and independently. I have strong project management experience and experience delegating responsibilities to a team. <p>
                 A flexible and quick learner committed to constantly  learning and evolving skills to stay abreast of ever-evolving technologies and trends in the industry. Communicative, knowledgeable and steadfast with excellent computer engineering skills. HTML5, CSS,JavaScript, VueJS, and ReactJS.<p>When I'm not coding, you'll find me baking delicous desserts.</p>
@@ -66,7 +65,7 @@
             fab
             dark
             outline
-            color="green"
+            color="blue"
             :href="icon.href"
             target="_blank"
           >
@@ -82,7 +81,7 @@
             fab
             dark
             outline
-            color="green"
+            color="bluen"
             :href="icon.href"
             target="_blank"
           >
@@ -163,7 +162,7 @@ export default {
   font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
 }
 .vue-typer .custom.char.typed {
-  color: green;
+  color: blue;
 }
 .vue-typer .custom.char.selected {
   color: #e91e63;
@@ -173,7 +172,7 @@ export default {
   animation: rocking 1s ease-in-out 0s infinite;
 }
 .vue-typer .custom.caret.typing {
-  background-color: green;
+  background-color: blue;
 }
 .vue-typer .custom.caret.selecting {
   display: inline-block;
