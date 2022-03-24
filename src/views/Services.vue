@@ -46,7 +46,7 @@
               <v-expand-transition>
                 <div
                   v-if="!hover"
-                  class="transition-fast-in-fast-out green v-img--reveal"
+                  class="transition-fast-in-fast-out blue v-img--reveal"
                   style="height: 100%;"
                 ></div>
               </v-expand-transition>
@@ -68,21 +68,21 @@ export default {
       {
         name: "description",
         content:
-          "Eldin Zaimovic's Services Web Development Video Editing Graphic Design Front-End Advetising"
+          "Sulai's Services Web Development Front-End Technical Writing and Editorial Services"
       },
       { charset: "utf-8" },
-      { property: "og:title", content: "Eldin' Space" },
-      { property: "og:site_name", content: "Eldin' Space" },
+      { property: "og:title", content: "Sulai Sivadel" },
+      { property: "og:site_name", content: "Sulai Sivadel" },
       { property: "og:type", content: "website" },
-      { property: "og:url", content: "https://eldin.space" },
+      { property: "og:url", content: "https://www.sulai.me" },
       {
         property: "og:image",
-        content: "https://i.imgur.com/Dcz2PGx.jpg"
+        content: ""
       },
       {
         property: "og:description",
         content:
-          "Eldin Zaimovic's Services Web Development Video Editing Graphic Design Front-End Advetising"
+          "Sulai Sivadel's Services Web Development Front-End Design and Development Writing and Editiorial"
       }
     ]
   },
@@ -91,50 +91,26 @@ export default {
       clients: [
         {
           name: "Party Dash",
-          src: "",
-          href: "https://partydash.com/"
+          src: "https://i.imgur.com/5uBCmox.pngully/portfolio10/images/Smiley_Face_Logo.png",
+          href: "https://partydash.com/",
+          title: "Party Dash",
         },
         {
-          name: "EEVOY",
-          src: "https://i.imgur.com/lIJePVb.png",
-          href: "https://www.eevoy.com/"
+          name: "Mayapple Center for the Arts and Humanities",
+          src: "https://i.imgur.com/6GR6DC5.jpg",
+          href: "https://www.mayapplecenter.org/"
         },
         {
-          name: "Riders Share",
-          src: "https://i.imgur.com/pgkY80b.png",
-          href: "https://www.riders-share.com/"
+          name: "John David West",
+          src: "https://i.imgur.com/cv4WrDO.jpg",
+          href: "https://www.johndavidwest.com/"
         },
         {
-          name: "Esthetician Connection",
+          name: "Michelle Slater, PhD.",
           src:
-            "https://estheticianconnection.com/wp-content/uploads/2019/01/EC-logo.png",
-          href: "https://estheticianconnection.com/"
+            "https://i.imgur.com/TSWhSC3.jpg",
+          href: "https://michelleslater.com/"
         },
-        {
-          name: "Goldentimepieces",
-          src: "https://i.imgur.com/sEybxZ5.png",
-          href: "https://goldentimepieces.com/"
-        },
-        {
-          name: "MFS-EMMAUS",
-          src: "https://i.imgur.com/33xPmQ8.png",
-          href: "https://mfs-emmaus.ba/"
-        },
-        {
-          name: "Scanlister",
-          src: "https://i.imgur.com/5K7h7c4.png",
-          href: "https://www.scanlister.com/"
-        },
-        {
-          name: "Unbroken Designs",
-          src: "https://i.imgur.com/kDLRh64.png",
-          href: "https://www.unbrokendesigns.com/"
-        },
-        {
-          name: "VilaShirts",
-          src: "https://i.imgur.com/Fg26T32.png",
-          href: "https://www.instagram.com/_vilashirts_/"
-        }
       ],
       services: [
         {
@@ -147,12 +123,12 @@ export default {
         },
 
         {
-          src: "https://i.imgur.com/wXLtLKy.png",
-          title: "Video Editing"
+          src: "https://i.imgur.com/HIgAoGm.png",
+          title: "Professional Writing/Editing"
         },
         {
-          src: "https://i.imgur.com/tcZnDep.png",
-          title: "Advertising"
+          src: "https://i.imgur.com/FaCKzOC.png",
+          title: "Technical Writing"
         }
       ]
     };
