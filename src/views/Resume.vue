@@ -91,13 +91,13 @@
       elevation-2>
       <v-list-item three-line>
         <v-list-item-content>
-          <v-card-title class="text-h5">Mayapple Center for the Arts and Humanities| www.mayapple.org</v-card-title>
+          <v-card-title class="text-h5">Mayapple Center for the Arts and Humanities| <a href="https://www.mayapple.org">www.mayapple.org</a></v-card-title>
           <v-card-title class="text-h5">Webmaster</v-card-title>
           <v-card-title class="text-h5">
             Updated and maintained website (Drupal 7 platform), creating links between Mayapple’s homepage and their yearly summer program at Sarah Lawrence College. Added, removed, and refined content for Events, Faculty, Executive Staff, Executive Board, and Advisory Board pages.      
           </v-card-title> 
           <v-list-item-subtitle>
-            <i>Key Accomplishments:</i>
+          <v-card-title class="text-h5"><i>Key Accomplishments:</i></v-card-title>
           </v-list-item-subtitle>
           <v-card-title class="text-h5">Removed departed Advisory Board members from Advisory Board page and added new Advisory Board Members </v-card-title>         
           <v-card-title class="text-h5">Input new faculty on Faculty page and Executive Board listing and names.</v-card-title>
@@ -105,6 +105,51 @@
        </v-list-item-content>
      </v-list-item>
     </v-card>
+    <br />
+    <v-card
+      class="mx-auto"
+      max-width="800"
+      tile
+      elevation-2>
+      <v-list-item three-line>
+        <v-list-item-content>
+          <v-card-title class="text-h5">Regeneron, Inc.| <a href="https://www.regeneron.com/">https://www.regeneron.com</a></v-card-title>
+          <v-card-title class="text-h5">Technical Writer/Content Management Writer/Editor, Independent  Contractor</v-card-title>
+          <v-card-title class="text-h5">
+            Created and edited complex technical documentation (Runbooks, cheat sheets, etc.) in plain language that allowed clear communication between technical and non-technical end-users in understanding standard operating procedure (SOP) of different departments (IT, Laboratories, etc.). Collaborated with Project Managers & Subject Matter Experts (SMEs) to develop and maintain site content (FTP, Networking, etc.) for divisions by conducting face-to-face and teleconference interviews with SMEs about the day-to-day operations of each division to accumulate Mission Critical data. Individually created User-facing documentation through SharePoint to implement a smooth continuation of company business if Mission Critical issues occurred.   
+          </v-card-title> 
+          <v-list-item-subtitle>
+          <v-card-title class="text-h5"><i>Key Accomplishments:</i></v-card-title>
+          </v-list-item-subtitle>
+          <v-card-title class="text-h5">Interviewed 8 SMEs (division heads and assistant managers) for each division to accumulate all necessary data </v-card-title>         
+          <v-card-title class="text-h5">Utilized SME-obtained data to create FTP, Network, and IT Runbook from project start to project finish</v-card-title>
+          <v-card-title class="text-h5"></v-card-title>
+       </v-list-item-content>
+     </v-list-item>
+    </v-card>
+    <v-card
+      class="mx-auto"
+      max-width="800"
+      tile
+      elevation-2>
+      <v-list-item three-line>
+        <v-list-item-content>
+          <v-card-title class="text-h5">Maximus|<a href="https://nymedicaidchoice.com/">www.nymedicaidchoice.com</a></v-card-title>
+          <v-card-title class="text-h5">Assistant Editor/Website QA,  Independent  Contractor </v-card-title>
+          <v-card-title class="text-h5">
+            Translated communications from legal team in Albany from legalese and rewrote information into materials that could be easily understood by the general public. Performed quality assurance on New York Medicaid Choice website to safeguard against any new errors. Produced marketing material (e.g. physical newsletters, HTML newsletters, posters, pharmacy bag notes, flyers, leaflets, etc.) to inform the general public about crucial upcoming changes to their health plans. Coordinated and oversaw recording sessions of new health plan materials. Created and filed electronic check requisitions for multiple vendors on a weekly basis using Adobe. Copywrote internal and external communications materials to promote and support executive managers.
+          </v-card-title> 
+          <v-list-item-subtitle>
+          <v-card-title class="text-h5"><i>Key Accomplishments:</i></v-card-title>
+          </v-list-item-subtitle>
+          <v-card-title class="text-h5">Project managed professional recording sessions with Native speakers of multiple languages (6) of new plan material so hearing and developmentally-impaired citizens of New York State could access these plan changes in ADA-compliant ways </v-card-title>         
+          <v-card-title class="text-h5">Performed quality assurance on a daily basis in a Drupal 7 environment for the New York Medicaid Choice website to ensure the site was fully-functional with no new errors after each edit or update was posted so that New York State citizens could successfully continue to access it for information or enrollment</v-card-title>
+          <v-card-title class="text-h5">Translated communications from legal team in Albany about new health care coverage and requirements from legalese into clear concise and easily understandable materials that was distributed to the general publics</v-card-title>
+       </v-list-item-content>
+     </v-list-item>
+    </v-card>
+    <br />
+
   </v-timeline>
 </template>
 
