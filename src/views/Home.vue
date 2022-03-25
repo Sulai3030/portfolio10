@@ -23,7 +23,7 @@
 
     <br>
 
-    <vue-typer class="headline" :repeat="0" text="Eldin Zaimovic"></vue-typer>
+    <vue-typer class="headline" :repeat="0" text="Sulai Sivadel"></vue-typer>
     <vue-typer
       :text="text1"
       :repeat="Infinity"
@@ -43,7 +43,7 @@
         <v-card-title primary-title>
           <div>
             <h3 class="headline mb-0">
-              <span class="blue--text"> Me</span>
+              <span class="blue--text"></span>
             </h3>
             <div>
               <p>
@@ -135,10 +135,10 @@ export default {
         },
       ],
       text1: ["Front-End Developer", "Web Developer", "Web Designer"],
-      leftImage: "https://i.imgur.com/bU50uS9.jpg",
-      rightImage: "https://i.imgur.com/z3ZoEEw.jpg",
-      leftImage2: "https://i.imgur.com/SXBitjh.jpg",
-      rightImage2: "https://i.imgur.com/Dcz2PGx.jpg",
+      leftImage: "https://i.imgur.com/HDIXej0.jpg",
+      rightImage: "",
+      leftImage2: "",
+      rightImage2: "",
       sliderLine: 0,
       hSize: 0,
       sliderPosition: 0.5

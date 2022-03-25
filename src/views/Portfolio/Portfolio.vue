@@ -24,19 +24,19 @@
 export default {
   metaInfo: {
     title: "Portfolio",
-    titleTemplate: "%s ← Eldin's Space",
+    titleTemplate: "%s ← Sulai Sivadel",
     meta: [
       { name: "viewport", content: "width=device-width, initial-scale=1" },
       {
         name: "description",
         content:
-          "Eldin Zaimovic's Portfolio Web Development Video Editing Graphic Design Front-End Advetising"
+          "Sulai Sivadel's Portfolio Web Development Editing Front-End"
       },
       { charset: "utf-8" },
-      { property: "og:title", content: "Eldin' Space" },
-      { property: "og:site_name", content: "Eldin' Space" },
+      { property: "og:title", content: "Sulai Sivadel' Space" },
+      { property: "og:site_name", content: "Sulai Sivadel' Space" },
       { property: "og:type", content: "website" },
-      { property: "og:url", content: "https://eldin.space" },
+      { property: "og:url", content: "https://www.sulai.me" },
       {
         property: "og:image",
         content: "https://i.imgur.com/Dcz2PGx.jpg"
@@ -44,7 +44,7 @@ export default {
       {
         property: "og:description",
         content:
-          "Eldin Zaimovic's Portfolio Web Development Video Editing Graphic Design Front-End Advetising"
+          "Sulai Sivadel's Portfolio Web Development Editing Front-End Development"
       }
     ]
   },
@@ -58,11 +58,11 @@ export default {
 
         {
           src: "https://i.imgur.com/wXLtLKy.png",
-          title: "Video"
+          title: "Editorial/Writing"
         },
         {
           src: "https://i.imgur.com/g74mGuU.png",
-          title: "Graphic"
+          title: "Technical Writing"
         }
       ]
     };
