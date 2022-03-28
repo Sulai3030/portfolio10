@@ -58,11 +58,15 @@ export default {
 
         {
           src: "https://i.imgur.com/wXLtLKy.png",
-          title: "Editorial/Writing"
+          title: "Editorial"
         },
         {
           src: "https://i.imgur.com/g74mGuU.png",
           title: "Technical Writing"
+        },
+        {
+          src: "https://i.imgur.com/g74mGuU.png",
+          title: "Professional Writing"
         }
       ]
     };

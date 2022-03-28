@@ -74,7 +74,7 @@ export default {
       {
         property: "og:description",
         content:
-          "Eldin Zaimovic's Web Portfolio Vue Vue.js Nuxt Nuxt.js HTML CSS Vuetify Axios GraphQL JavaScript Web Developer Front-End Frontend Designer App Responsive"
+          "Sulai Sivadel Web Portfolio Vue Vue.js HTML CSS Vuetify Axios GraphQL JavaScript Web Developer Front-End Frontend Designer App Responsive"
       }
     ]
   },
@@ -84,92 +84,92 @@ export default {
       projects: [
          {
           dialog: false,
-          title: "Euphoric Voyage",
-          git: "https://github.com/EldinZaimovic/euphoric-voyage",
-          demo: "https://www.euphoric-voyage.com/",
+          title: "Party Dash",
+          git: "",
+          demo: "https://www.partydash.com/",
           tech: {
-            tech1: "Gatsby",
+            tech1: "VueJs",
             tech2: "JavaScript",
-            tech3: "SCSS",
+            tech3: "CSS",
             tech4: "Markdown"
           },
-          poster: "https://i.imgur.com/9Ww2bvm.png"
+          poster: "https://i.imgur.com/5uBCmox.png"
         },
         {
           dialog: false,
-          title: "This Site",
-          git: "https://github.com/EldinZaimovic/Eldin-Space-Vue",
-          demo: "https://eldin.space/",
+          title: "Mayapple Center for the Arts & Humanites",
+          git: "",
+          demo: "https://www.mayapplecenter.org/",
           tech: {
-            tech1: "VUE",
-            tech2: "Storyblok",
-            tech3: "HTML",
-            tech4: "JavaScript"
+            tech1: "Wordpress",
+            tech2: "HTML",
+            tech3: "",
+            tech4: ""
           },
-          poster: "https://i.imgur.com/sGUofpv.png"
+          poster: "https://i.imgur.com/6GR6DC5.jpg"
         },
         {
           dialog: false,
-          title: "Frontend Developer at Brandly.com",
-          git: "https://cdn.neow.in/news/images/uploaded/2018/11/1543476286_cybersecurity.jpg",
-          demo: "https://www.brandly.com/",
+          title: "Developer for michelleslater.com",
+          git: "",
+          demo: "https://michelleslater.com/",
           tech: {
-            tech1: "VUE",
-            tech2: "SCSS",
-            tech3: "HTML",
-            tech4: "JavaScript"
+            tech1: "Wordpress",
+            tech2: "HTML",
+            tech3: "",
+            tech4: ""
           },
-          poster: "https://i.imgur.com/nVqtTAf.png"
+          poster: "https://i.imgur.com/TSWhSC3.jpg"
         },
         {
           dialog: false,
-          title: "Digital Madness Test",
-          git: "https://github.com/EldinZaimovic/Digital-Madness-test",
-          demo: "https://digital-madness-test.netlify.com/",
+          title: "JohnDavidWest.com",
+          git: "",
+          demo: "https://www.johndavidwest.com/",
           tech: {
-            tech1: "VUE",
+            tech1: "HTML",
             tech2: "CSS",
+            tech3: "",
+            tech4: ""
+          },
+          poster: "https://i.imgur.com/cv4WrDO.jpg"
+        },
+        {
+          dialog: false,
+          title: "Sulai.me",
+          git: "https://github.com/Sulai3030/portfolio10/tree/master",
+          demo: "https://www.sulai.me",
+          tech: {
+            tech1: "VUEJs",
+            tech2: "CSS",
+            tech3: "Javascript",
+            tech4: ""
+          },
+          poster: "https://i.imgur.com/irETqQt.jpg"
+        },
+        {
+          dialog: false,
+          title: "GraphQL-Practice",
+          git: "https://github.com/Sulai3030/graphql-practice",
+          demo: "",
+          tech: {
+            tech1: "GraphQL",
+            tech2: "",
             tech3: "HTML",
             tech4: "JavaScript"
           },
-          poster: "https://i.imgur.com/GOIIL06.png"
+          poster: "https://imgur.com/t/graph/1X8LpaQ"
         },
         {
           dialog: false,
-          title: "Snowball Coding Challenge",
-          git: "https://github.com/EldinZaimovic/SnowBall-Project",
-          demo: "https://snowball-test.netlify.com/",
+          title: "RuneSkype",
+          git: "https://github.com/Sulai3030/RuneSkype",
+          demo: "https://github.com/Jroze88/RuneSkype",
           tech: {
-            tech1: "VUE",
-            tech2: "GraphQL",
-            tech3: "Axios",
-            tech4: "JavaScript"
-          },
-          poster: "https://i.imgur.com/rXHBs36.png"
-        },
-        {
-          dialog: false,
-          title: "IBM Coding Challenge - Films Location",
-          git: "https://github.com/EldinZaimovic/Film-Location-List",
-          demo: "https://film-location-ibm-cc.netlify.com/",
-          tech: {
-            tech1: "VUE",
-            tech2: "Lodash",
-            tech3: "HTML",
-            tech4: "JavaScript"
-          },
-          poster: "https://i.imgur.com/kCN1CFH.png"
-        },
-        {
-          dialog: false,
-          title: "Stock Trader",
-          git: "https://github.com/EldinZaimovic/Stock-Trader",
-          demo: "https://stock-trader-eldin.netlify.com/",
-          tech: {
-            tech1: "VUE",
-            tech2: "Vuex",
-            tech3: "Firebase",
-            tech4: "JavaScript"
+            tech1: "ReactJS",
+            tech2: "Firebase",
+            tech3: "Express",
+            tech4: ""
           },
           poster: "https://i.imgur.com/wK5dqP7.png"
         },
