@@ -1,28 +1,12 @@
 <template>
   <v-layout column justify-center align-center class="mt-4 pt-2">
-    <VueCompareImage
-      class="hidden-md-and-down"
-      hover
-      :style="{ minWidth: '1300px' }"
-      :sliderLineWidth="sliderLine"
-      :handleSize="hSize"
-      :leftImage="leftImage"
-      :rightImage="rightImage"
-      :sliderPositionPercentage="sliderPosition"
-    />
-    <VueCompareImage
-      class="hidden-lg-and-up"
-      hover
-      :style="{ maxWidth: '400px' }"
-      :sliderLineWidth="sliderLine"
-      :handleSize="hSize"
-      :leftImage="leftImage2"
-      :rightImage="rightImage2"
-      :sliderPositionPercentage="sliderPosition"
-    />
-
-    <br>
-
+    <v-carousel hide-delimiters>
+    <v-carousel-item
+      v-for="(item,i) in items"
+      :key="i"
+      :src="item.src"
+    ></v-carousel-item>
+  </v-carousel>
     <vue-typer class="headline" :repeat="0" text="Sulai Sivadel"></vue-typer>
     <vue-typer
       :text="text1"
@@ -81,7 +65,7 @@
             fab
             dark
             outline
-            color="bluen"
+            color="blue"
             :href="icon.href"
             target="_blank"
           >
@@ -135,15 +119,25 @@ export default {
         },
       ],
       text1: ["Front-End Developer", "Web Developer", "Web Designer"],
-      leftImage: "https://i.imgur.com/HDIXej0.jpg?1",
-      rightImage: "",
-      leftImage2: "https://i.imgur.com/HDIXej0.jpg",
-      rightImage2: "",
       sliderLine: 0,
       hSize: 0,
-      sliderPosition: 0.5
+      sliderPosition: 0.5,
+        items: [
+          {
+            src: 'https://i.imgur.com/pKAfYqJ.jpg',
+          },
+          {
+            src: 'https://i.imgur.com/ilAuHRj.jpg',
+          },
+          {
+            src: 'https://i.imgur.com/yqk5uxS.jpg',
+          },
+          {
+            src: 'https://i.imgur.com/OjfJyq9.jpg',
+          },
+        ],
     };
-  }
+  },
 };
 </script>
 <style>
