@@ -127,13 +127,13 @@ export default {
             src: 'https://i.imgur.com/pKAfYqJ.jpg',
           },
           {
-            src: 'https://i.imgur.com/ilAuHRj.jpg',
+            src: 'https://i.imgur.com/sZVpwww.jpg',
           },
           {
             src: 'https://i.imgur.com/yqk5uxS.jpg',
           },
           {
-            src: 'https://i.imgur.com/OjfJyq9.jpg',
+            src: 'https://i.imgur.com/OjfJyq9.jpg?1',
           },
         ],
     };
