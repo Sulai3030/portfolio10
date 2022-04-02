@@ -22,23 +22,23 @@
       caret-animation="smooth"
     ></vue-typer>
     <br>
-    <v-flex xs12 sm6 md4 lg4 xl4>
-      <v-card flat color="transparent" max-width="500">
+    <v-flex xs12 sm6 md4 lg4 xl4 max-width="fluid">
+      <v-card flat color="transparent">
         <v-card-title primary-title>
-          <div>
-            <h3 class="headline mb-0">
-              <span class="blue--text"></span>
-            </h3>
-            <div>
-              <p>
-                Hello! I am Sulai Sivadel. I'm a Frontend Developer who
-                is passionate about
-                <span
-                  class="blue--text font-weight-bold"
-                ></span>building great user experiences.
-                I  am ambitious and user-focused with experience working in teams and independently. I have strong project management experience and experience delegating responsibilities to a team. <p>
-                A flexible and quick learner committed to constantly  learning and evolving skills to stay abreast of ever-evolving technologies and trends in the industry. Communicative, knowledgeable and steadfast with excellent computer engineering skills. HTML5, CSS,JavaScript, VueJS, and ReactJS.<p>When I'm not coding, you'll find me baking delicous desserts.</p>
-            </div>
+          <div style="background:#f5f5f7;color:#80bdf6">
+            <h4 class="headline mb-0">
+              <span></span>
+                <div> 
+                  <p>
+                    Hello! I am Sulai Sivadel. I'm a Frontend Developer who
+                   is passionate about
+                   <span
+                     class="blue--text font-weight-bold">
+                   </span>building great user experiences.
+                      I  am ambitious and user-focused with experience working in teams and independently. I have strong project management experience and experience delegating responsibilities to a team. <p>
+                      A flexible and quick learner committed to constantly  learning and evolving skills to stay abreast of ever-evolving technologies and trends in the industry. Communicative, knowledgeable and steadfast with excellent computer engineering skills. HTML5, CSS,JavaScript, VueJS, and ReactJS.<p>When I'm not coding, you'll find me baking delicous desserts.</p>
+                </div>
+            </h4>
           </div>
         </v-card-title>
 
