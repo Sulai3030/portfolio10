@@ -1,5 +1,5 @@
 <template>
-  <v-app :dark="goDark">
+  <v-app :dark="goDark" class="#f5f5f7">
     <v-content>
       <v-container align-center>
         <TheHeader :goDark="goDark" @changeTheme="updateTheme($event)"/>

@@ -1,7 +1,7 @@
 <template>
   <v-container grid-list-xl>
     <h2 class="pl-4">
-      <span>Graphic</span>
+      <span>Technical</span>
       <span class="green--text">Portfolio</span>
     </h2>
     <v-layout row justify-center align-center wrap class="mt-4 pt-2">
@@ -36,20 +36,20 @@
 <script>
 export default {
   metaInfo: {
-    title: "Graphic Portfolio ",
-    titleTemplate: "%s ← Eldin's Space",
+    title: "Technical Portfolio ",
+    titleTemplate: "%s ← Sulai's Space",
     meta: [
       { name: "viewport", content: "width=device-width, initial-scale=1" },
       {
         name: "description",
         content:
-          "Eldin Zaimovic's Graphic Adobe PhotoShop Logo Design Instagram Poster"
+          "Sulai's Graphic Adobe PhotoShop Logo Design Instagram Poster"
       },
       { charset: "utf-8" },
-      { property: "og:title", content: "Eldin' Space" },
-      { property: "og:site_name", content: "Eldin' Space" },
+      { property: "og:title", content: "Sulai's Space" },
+      { property: "og:site_name", content: "Sulai's Space" },
       { property: "og:type", content: "website" },
-      { property: "og:url", content: "https://eldin.space" },
+      { property: "og:url", content: "https://www.sulai.me" },
       {
         property: "og:image",
         content: "https://i.imgur.com/Dcz2PGx.jpg"
@@ -57,7 +57,7 @@ export default {
       {
         property: "og:description",
         content:
-          "Eldin Zaimovic's Graphic Adobe PhotoShop Logo Design Instagram Poster"
+          "Sulai's PhotoShop Logo Design Instagram Poster"
       }
     ]
   },

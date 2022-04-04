@@ -1,8 +1,8 @@
 <template>
   <v-container grid-list-xl>
     <h2 class="pl-4">
-      <span>Video</span>
-      <span class="green--text">Portfolio</span>
+      <span>Editorial</span>
+      <span class="blue--text">Portfolio</span>
     </h2>
     <v-layout row justify-center align-center wrap class="mt-4 pt-2">
       <v-dialog
@@ -43,20 +43,20 @@ import { PlyrVideo } from "vue-plyr";
 
 export default {
   metaInfo: {
-    title: "Video Portfolio",
-    titleTemplate: "%s ← Eldin's Space",
+    title: "Editorial Portfolio",
+    titleTemplate: "%s ← Sulai's Page",
     meta: [
       { name: "viewport", content: "width=device-width, initial-scale=1" },
       {
         name: "description",
         content:
-          "Eldin Zaimovic's Services Adobe Premire After Effects Video Ad's Social Media Logo Animation Instagram Facebook Video Editing Advetising"
+          "Sulai Sivadel's Services Social Media Copy Instagram Facebook Advertising"
       },
       { charset: "utf-8" },
-      { property: "og:title", content: "Eldin' Space" },
-      { property: "og:site_name", content: "Eldin' Space" },
+      { property: "og:title", content: "Sulai's Page" },
+      { property: "og:site_name", content: "Sulai's Page" },
       { property: "og:type", content: "website" },
-      { property: "og:url", content: "https://eldin.space" },
+      { property: "og:url", content: "https://www.sulai.me" },
       {
         property: "og:image",
         content: "https://i.imgur.com/Dcz2PGx.jpg"

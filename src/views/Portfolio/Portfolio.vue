@@ -53,7 +53,7 @@ export default {
       portfolios: [
         {
           src: "https://i.imgur.com/GvTt5GG.png",
-          title: "Web"
+          title: "Web Development",
         },
 
         {

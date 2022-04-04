@@ -1,5 +1,5 @@
 <template>
-  <v-layout column justify-center align-center class="mt-4 pt-2">
+  <v-layout column justify-center align-center class="mt-4 pt-2" color="#022770">
     <v-carousel hide-delimiters>
     <v-carousel-item
       v-for="(item,i) in items"
@@ -22,11 +22,12 @@
       caret-animation="smooth"
     ></vue-typer>
     <br>
+    <div class="spacer-medium no-hide"></div>
     <v-flex xs12 sm6 md4 lg4 xl4 max-width="fluid">
-      <v-card flat color="transparent">
+      <v-card elevation="24" outlined>
         <v-card-title primary-title>
-          <div style="background:#f5f5f7;color:#80bdf6">
-            <h4 class="headline mb-0">
+          <div style="color:#022770">
+            <h5 class="headline mb-0">
               <span></span>
                 <div> 
                   <p>
@@ -38,7 +39,7 @@
                       I  am ambitious and user-focused with experience working in teams and independently. I have strong project management experience and experience delegating responsibilities to a team. <p>
                       A flexible and quick learner committed to constantly  learning and evolving skills to stay abreast of ever-evolving technologies and trends in the industry. Communicative, knowledgeable and steadfast with excellent computer engineering skills. HTML5, CSS,JavaScript, VueJS, and ReactJS.<p>When I'm not coding, you'll find me baking delicous desserts.</p>
                 </div>
-            </h4>
+            </h5>
           </div>
         </v-card-title>
 
@@ -156,7 +157,7 @@ export default {
   font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
 }
 .vue-typer .custom.char.typed {
-  color: blue;
+  color: #022770;
 }
 .vue-typer .custom.char.selected {
   color: #e91e63;
