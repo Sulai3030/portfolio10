@@ -64,7 +64,7 @@ export default new Router({
     },
     {
       path: "/portfolio/web",
-      name: "webPortfolio",
+      name: "web",
       component: () =>
         import( /* webpackChunkName: "about" */ "./views/Portfolio/Web.vue")
     },
